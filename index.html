@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catify - Der katzigste Katzenkiosk im Internet</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(246, 179, 212);
+            margin: 0;
+            font-family: "Roboto", sans-serif;
+        }
+        .header-image  {
+            height: 100vh;
+            width: 100%;
+            object-fit: cover;
+        }
+        .container {
+            position: absolute;
+            right: 32px;
+            top: 16px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+        }
+        .menu-link {
+            color: black;
+            text-decoration: none;
+            margin-left: 16px;
+            font-size: 20px;
+        }
+        .menu-link:hover {
+            text-decoration: underline;
+        }
+        .headline {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            width: 500px;
+            text-align: center;
+        }
+        .description-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .description-text {
+            max-width: 600px;
+            font-size: 18px;
+            padding: 20px;
+            text-align: justify;
+        }
+        .map-container {
+            width: 100%;
+            margin-top: 50px;
+            text-align: center;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <img class="header-image" src="IMG_7183.JPG" alt="Header Image">
+    <div class="container">
+        <img src="2hhMxh-LogoMakr.png" alt="Logo">
+        <div>
+            <a class="menu-link" href="produkte.html">Produkte</a>
+            <a class="menu-link" href="öffnungszeiten.html">Öffnungszeiten</a>
+            <a class="menu-link" href="produktdetails.html">Produktdetails</a>
+            <a class="menu-link" href="überuns.html">Über uns</a>
+            <a class="menu-link" href="getränkekarte.html">Getränkekarte</a>
+            <a class="menu-link" href="impressum.html">Impressum</a>
+        </div>
+    </div>
+    <h1 class="headline">Der katzigste Katzenkiosk im Internet</h1>
+    <div class="description-section">
+        <div class="description-text">
+            Herzlich willkommen bei Catify! – Ihrem neuen Lieblingsort für alle Katzenliebhaber und ihre pelzigen Freunde! Tauchen Sie ein in eine Welt voller Miau-Momente und entdecken Sie unsere einzigartige Auswahl an Leckereien, Snacks und Unterhaltung für Katzen und ihre menschlichen Begleiter. Unser Team besteht aus freundlichen Katzenmitarbeitern, die Ihnen gerne mit einem Schnurrgruß und einem freundlichen Miau weiterhelfen. Besuchen Sie uns im Katzenkiosk und lassen Sie sich von unserer Auswahl verzaubern!
+            <br><br>
+            In unserem Katzenkiosk finden Sie eine breite Palette an Produkten, die speziell auf die Bedürfnisse von Katzen und ihren Besitzern zugeschnitten sind. Ob Sie auf der Suche nach hochwertigem Katzenfutter, kuscheligen Bettchen oder lustigem Spielzeug sind – im Katzenkiosk werden Sie fündig.
+            <br><br>
+            Besuchen Sie unseren Katzenkiosk und erleben Sie eine einzigartige Einkaufserfahrung, bei der unsere bezaubernden Katzenmitarbeiter Ihnen stets mit einer helfenden Pfote zur Seite stehen. Wir freuen uns auf Ihren Besuch!
+        </div>
+    </div>
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.2482866484256!2d8.4030667!3d49.005861200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47970645d3056f9b%3A0xa8a767a99a351b06!2sEttlinger%20Tor%20Karlsruhe!5e0!3m2!1sde!2sde!4v1708222587340!5m2!1sde!2sde" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</body>
+</html>
+
